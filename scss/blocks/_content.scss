@@ -1,0 +1,81 @@
+@import'./global';
+.content
+{
+    width: 100%;
+    background-color: black;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    &-name 
+    {
+        width: 80%;
+        margin:  0 auto;
+        & h1 
+        {
+            font-size: 50px;
+            color: #ffff;
+            & span 
+            {
+                color:#FF0000;
+            }
+        }
+    }
+    &-items
+    {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-bottom: 120px;
+        text-align: left;
+        &__item
+        {
+            width: 27%;
+            & span 
+            {
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                & h3 
+                {
+                    font-size: 35px;
+                }
+            }
+            & p 
+            {
+                font-size: 18px;
+                margin-top: 20px;
+            }
+        }
+    }
+    &-thing
+    {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 30px;
+        & h1 
+        {
+            font-size: 55px;
+            color: #FF0000;
+        }
+        & h3 
+        {
+            margin-left: 30px ;
+            margin-right: 33px;
+        }
+    }
+    & button 
+    {
+        width: 30%;
+        background-color: #FF0000;
+        border: none;
+        text-align: center;
+        height: 58px;
+        color: #fff;
+        margin-top: 100px;
+    }
+}

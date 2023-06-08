@@ -1,0 +1,60 @@
+footer 
+{
+    width: 100%;
+    background-color: black;
+    padding-bottom: 30px;
+    & p 
+    {
+        text-align: center;
+        color: #fff;
+        
+    }
+    .nav
+    {
+        width: 80%;
+        margin: 0 auto;
+        color: #fff;
+        display: flex;
+        height: 100px;
+        &-logo
+        {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &-list
+        {
+            width: 60%;
+            height: 100%;
+            & ul 
+            {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                & li 
+                {
+                    height: 100%;
+                    width: 25%;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    & a 
+                    {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &-icon
+        {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}

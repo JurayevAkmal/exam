@@ -1,0 +1,57 @@
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0px;
+    &-name
+    {
+        width: 100%;
+        & h1
+        {
+            font-size: 50px;
+            margin-left: 40px;
+            & span 
+            {
+                color: #FF0000;
+            }
+        }
+    }
+    &-vrap
+    {
+        width: 100%;
+        display: flex;
+        & .p1 
+        {
+            width: 50%;
+            & .block
+            {
+                width: 100%;
+                & span
+                {
+                    display: flex;
+                    align-items: center;
+                    
+                    & h1 
+                    {
+                        font-size: 170px;
+                        color: #85858554;
+                    }
+                    & h3 
+                    {
+                        font-size: 35px;
+                        width: 50%;
+                    }
+                }
+                & img 
+                {
+                    width: 80%;
+                    border-radius: 50%;
+                }
+            }
+        }
+        & .p1:nth-child(2)
+        {
+            margin-top: 140px;
+        }
+    }
+}
